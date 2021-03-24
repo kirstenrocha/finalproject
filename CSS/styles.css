@@ -1,20 +1,44 @@
-body {
-    background-color: rgb(46, 44, 44);
-    margin 0px;
+.header {
+  display: block;
+  width: 100%;
+  margin-top: 0px;
 }
 
-.navbar  {
-background-color: black;
-color: white;
-height: 80px;
-position: sticky;
-top: 0px;
-text-align-last: right;
+.fab {
+  font-size: 20px;
+  height: 20px;
+  width: 40px;
+  margin: 10px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+  float: right;
 }
 
-.footer {
-    height: 500px;
-    text-align: center;
-    background-color: rgb(165, 42, 114);
-    clear: both;
-  }
+.fab:hover {
+  opacity: 0.3;
+}
+
+h1 {
+  font-family: "Bungee Inline", cursive;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  position: sticky;
+  text-align-last: right;
+  clear: both;
+}
+
+footer {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  color: rgb(84, 12, 151);
+  font-family: "Kristi", cursive;
+  background-color: rgb(202, 130, 172);
+}
