@@ -1,9 +1,4 @@
-.header {
-  display: block;
-  width: 100%;
-  margin-top: 0px;
-}
-
+/* header icons */
 .fab {
   font-size: 20px;
   height: 20px;
@@ -21,10 +16,18 @@
   opacity: 0.3;
 }
 
+/* header */
+.header {
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+}
+
 h1 {
   font-family: "Bungee Inline", cursive;
 }
 
+/* navigation */
 .navbar {
   background-color: black;
   color: white;
