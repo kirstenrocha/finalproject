@@ -1,49 +1,64 @@
-/* header icons */
-.fab {
-  font-size: 20px;
-  height: 20px;
-  width: 40px;
-  margin: 10px;
-  padding: 10px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-  text-decoration: none;
-  text-align: center;
-  float: right;
-}
-
-.fab:hover {
-  opacity: 0.3;
-}
-
 /* header */
 .header {
-  display: block;
   width: 100%;
-  margin-top: 0px;
+  height: 100%;
+  background-color: rgb(202, 130, 172);
+  border-style: groove;
+  border-width: 5px;
+  border-color: rgb(192, 192, 192);
+  position: sticky;
+  top: 0px;
+  text-align: right;
 }
 
 h1 {
   font-family: "Bungee Inline", cursive;
+  font-size: 100%;
 }
 
+body {
+  background-color: rgb(0, 0, 0);
+}
 /* navigation */
 .navbar {
+  display: block;
+  width: 100%;
+  margin-top: 0px;
+  position: sticky;
   background-color: black;
   color: white;
   margin: 0px;
-  position: sticky;
   text-align-last: right;
   clear: both;
 }
 
+/* footer and icons */
 footer {
-  height: 20px;
+  position: fixed left 0px;
+  bottom: 0px;
+  height: 100%;
   width: 100%;
+  padding: 10px;
   text-align: center;
   color: rgb(84, 12, 151);
   font-family: "Kristi", cursive;
   background-color: rgb(202, 130, 172);
+}
+
+.fab {
+  font-size: 20px;
+  height: 20px;
+  width: 20px;
+  margin: 1px;
+  padding: 1px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+}
+
+.fab:hover {
+  opacity: 0.3;
 }
 
 /* Contact page only */
