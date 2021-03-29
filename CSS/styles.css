@@ -45,3 +45,42 @@ footer {
   font-family: "Kristi", cursive;
   background-color: rgb(202, 130, 172);
 }
+
+/* Contact page only */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  /* box-sizing: border-box; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+h2 {
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  text-decoration: underline;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: content-box;
+  padding: 20px;
+  background-color: rgb(204, 204, 204);
+  height: 100%;
+  width: 20%;
+}

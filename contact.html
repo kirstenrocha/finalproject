@@ -27,6 +27,7 @@
       <i class="fab fa-instagram"></i>
       <i class="fab fa-facebook"></i>
     </header>
+
     <!-- Navbar links need color correct -->
     <navbar class="pagelist">
       <h1 class="header-text">
@@ -41,38 +42,54 @@
     <!-- Container and contact form -->
     <div class="container">
       <h2>Contact Form</h2>
-      <form action="">
-        <label for="fname">First Name:</label>
-        <input
-          type="text"
-          id="fname"
-          name="firstname"
-          placeholder="Your first name..."
-        />
-        <label for="lname">Last Name:</label>
-        <input
-          type="text"
-          id="lname"
-          name="lastname"
-          placeholder="Your last name..."
-        />
-        <label for="email">Email:</label>
-        <input
-          type
-          id="text"
-          id="email"
-          name="Email"
-          placeholder="example@geekwise.com"
-        />
-        <label for="message">Message:</label>
-        <textarea
-          name="message"
-          id="message"
-          placeholder="Type here..."
-          cols="30"
-          rows="10"
-        ></textarea>
-        <button type="button">Submit</button>
+      <form action="" target="">
+        <div>
+          <label for="fname">First Name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your first name..."
+            required
+          />
+        </div>
+
+        <div>
+          <label for="lname">Last Name:</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name..."
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="example@geekwise.com"
+            required
+          />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Type here..."
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+        </div>
+
+        <!-- submit button takes you back to Thank You page -->
+        <button type="submit" formaction="/thankyou.html">Submit</button>
+
+        <!-- <button type="button">Submit</button> -->
       </form>
     </div>
     <footer>
