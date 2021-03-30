@@ -16,22 +16,19 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-.hero-image {
-  margin: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
-    image(creativity hero image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .hero-text {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: rgb(000, 000, 000);
   font-family: "Bungee inline", cursive;
+  background-image: url("../images/creativity.jpg");
+  background-size: contain;
+  height: 200px;
+  width: 100%;
+}
+
+.contentarea {
+  min-height: 1000px;
+  background-color: blue;
 }
 
 /* navigation */
@@ -54,8 +51,6 @@ footer {
   width: 100%;
   padding: 10px;
   text-align: center;
-  color: rgb(84, 12, 151);
-  font-family: "Kristi", cursive;
   background-color: rgb(202, 130, 172);
 }
 
@@ -69,6 +64,11 @@ footer {
   background-color: rgb(0, 0, 0);
   text-decoration: none;
   text-align: center;
+}
+
+#signature {
+  color: rgb(84, 12, 151);
+  font-family: "Kristi", cursive;
 }
 
 .fab:hover {
