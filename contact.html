@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Kristi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Kristi&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./CSS/styles.css" />
 
@@ -19,16 +22,44 @@
     <title>Contact</title>
   </head>
   <body>
-<!-- header -->
-<header class="header">
-  <navbar class="pagelist">
-    <ul>
-      <a class="one" href="index.html">Home</a>
-      <a class="one" href="about.html">About</a>
-      <a class="one" href="contact.html">Contact</a>
-    </ul>
-  </navbar>
-</header>
+    <!-- header -->
+    <header class="header">
+      <navbar class="pagelist">
+        <ul>
+          <a class="one" href="index.html">Home</a>
+          <a class="one" href="about.html">About</a>
+          <a class="one" href="contact.html">Contact</a>
+        </ul>
+      </navbar>
+    </header>
+
+    <!-- Container and map -->
+    <div class="container">
+      <h2>Directions</h2>
+      <ul class="directions">
+        <li>Start: Fresno, CA</li>
+        <li>Get on CA-41 S 3 min (0.8 mi)</li>
+        <li>
+          Follow CA-99 S and I-5 S to Disneyland Dr in Anaheim. Take exit 110B
+          from I-5 S 3 hr 43 min (244 mi)
+        </li>
+        <li>
+          Continue on Disneyland Dr to your destination 2 min (0.4 mi)
+        </li>
+        <li>End: Disneyland Park 1313 Disneyland Dr, Anaheim, CA 92802</li>
+      </ul>
+
+      <map name="my dream location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.0085753561048!2d-117.92116288541075!3d33.812091780671956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sus!4v1617226139471!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: dashed"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </map>
+    </div>
 
     <!-- Container and contact form -->
     <div class="container">
@@ -89,7 +120,7 @@
       <html id="top">
         <body>
           <!-- the entire document -->
-          <a href="#top">Jump to top of page</a>
+          <a class="one" href="#top">Return to top of page</a>
         </body>
       </html>
       <div>
@@ -98,6 +129,7 @@
         <i class="fab fa-etsy"></i>
       </div>
       <div id="signature">Designed by K1</div>
+      <div id="signature">&#169; 2021</div>
     </footer>
   </body>
 </html>
