@@ -37,10 +37,39 @@ a.one:active {
   text-decoration: underline;
 }
 
-/* Content */
 body {
   background-color: rgb(0, 0, 0);
   padding 100px;
+}
+
+.content {
+  min-height: 700px;
+  max-width: 100%;
+  padding: 30px;
+  background-color: rgb(236, 225, 225);
+  border-left: groove;
+  border-right: groove;
+  margin-top: 0px;
+  border-width: 5px;
+  border-color: rgb(192, 192, 192);
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 200 px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  box-sizing: content-box;
+  padding: 20px;
 }
 
 .hero-text {
@@ -56,21 +85,10 @@ body {
   border-color: rgb(192, 192, 192);
 }
 
-.content {
-  min-height: 700px;
-  max-width: 100%;
-  background-color: rgb(236, 225, 225);
-  border-left: groove;
-  border-right: groove;
-  border-width: 5px;
-  border-color: rgb(192, 192, 192);
-}
-
 /* navigation */
 .navbar {
   display: block;
   width: 100%;
-  margin-top: 0px;
   position: sticky;
   background-color: black;
   color: white;
@@ -113,20 +131,36 @@ footer {
   opacity: 0.3;
 }
 
+/* Home page only */
+h1 {
+  font-size: 85px;
+  margin-top: 0px;
+}
+
 /* About page only */
-.lyrics {
+.lyrics1 {
   color: rgb(000, 000, 000);
   background-color: #f8efdf;
-  border-style: solid;
-  border-color: rgb(192, 192, 192);
-  width: 400px;
-  font-family: "Bungee", cursive;
+  border-style: dashed;
+  border-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
   text-align: center;
-  margin-top: 10px;
-  margin: auto;
-  padding: 10px;
+  padding: 200px;
+}
+
+.lyrics2 {
+  color: rgb(000, 000, 000);
+  background-color: #f8efdf;
+  border-top-style: none;
+  border-style: dashed;
+  border-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0px;
 }
 
 /* Contact page only */
@@ -160,19 +194,4 @@ textarea {
   margin-bottom: 10px;
   margin-top: 10px;
   vertical-align: middle;
-}
-
-h2 {
-  text-decoration: underline;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h3 {
-  font-style: italic;
-  font-size: 50px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  box-sizing: content-box;
-  padding: 20px;
 }
